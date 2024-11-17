@@ -82,8 +82,6 @@ dependencies {
 
     implementation(libs.kotlinx.serialization.json)
     implementation(libs.androidx.navigation.compose)
-}
-// Allow references to generated code
-kapt {
-    correctErrorTypes = true
+
+    implementation(libs.okhttp3.logging.interceptor)
 }
